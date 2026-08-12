@@ -1,11 +1,22 @@
-☀️ SISTEMA FOTOVOLTAICO AISLADO CON ALMACENAMIENTO
-
 <p align="center">
   <img src="06_Imagenes/sistema_fotovoltaico.png" width="70%">
 </p>
 <div align="center">
 
-⚡ Diseño • Simulación • Almacenamiento • Análisis Energético
+
+☀️ SISTEMA FOTOVOLTAICO AISLADO CON ALMACENAMIENTO
+
+### ⚡ Diseño • Simulación • Almacenamiento • Análisis Energético
+
+![Diseño](https://img.shields.io/badge/Energy-Design-blue?style=for-the-badge)
+
+![Simulación](https://img.shields.io/badge/Simulation-PVsyst-success?style=for-the-badge)
+
+![Almacenamiento](https://img.shields.io/badge/Energy-Storage-orange?style=for-the-badge)
+
+![Análisis](https://img.shields.io/badge/Energy-Analysis-red?style=for-the-badge)
+
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
 </div>
 
