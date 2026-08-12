@@ -52,7 +52,7 @@ Performance Ratio	33.71 %
 # 📸 Galería
 
 ### Diagrama unifilar general del sistema fotovoltaico.
-Representación eléctrica de la conexión entre módulos FV, inversor, protecciones y tablero de distribución.
+Representación eléctrica de la conexión entre módulos FV, inversor, protecciones y tablero de distribución, realizado en AUTOCAD. 
 
 <p align="center">
 <img src="panel/Diagrama.png" width="100%">
