@@ -51,14 +51,15 @@ Performance Ratio	33.71 %
 
 # 📸 Galería
 
-### Tablero control con PLC y HMI instalados.
-Tablero principal de control de procesos para una planta de tratamiento de aguas residuales que controla bombas y medidores de flujo, con PLC DELTA instalado automatizando todo el proceso.
+### Diagrama unifilar general del sistema fotovoltaico.
+Representación eléctrica de la conexión entre módulos FV, inversor, protecciones y tablero de distribución.
 
 <p align="center">
-<img src="queretaro/tablero-control.jpeg" width="30%">
+<img src="panel/diagrama.png" width="30%">
+</p>
 
-<img src="queretaro/interior-tablero.jpeg" width="30%">
-
+<p align="center">
+<img src="panel/diagrama unifilar.png" width="30%">
 </p>
 
 ☀️ Arreglo Fotovoltaico
