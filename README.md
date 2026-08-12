@@ -20,34 +20,24 @@
 
 📌 Descripción
 
-Proyecto de diseño y simulación de un sistema fotovoltaico aislado con almacenamiento energético, desarrollado mediante PVsyst V8.0.18.
+Diseño y simulación de un sistema fotovoltaico aislado con almacenamiento de energía, desarrollado mediante PVsyst.
 
-El proyecto analiza la generación solar, demanda eléctrica, almacenamiento mediante baterías, pérdidas del sistema, energía excedente, energía faltante y desempeño energético.
+El proyecto contempla el dimensionamiento del campo fotovoltaico, configuración del sistema de almacenamiento, análisis de la demanda energética, evaluación de pérdidas y simulación del comportamiento energético del sistema.
 
-El sistema fue modelado como una instalación fotovoltaica autónoma con almacenamiento, permitiendo evaluar su comportamiento energético durante un año completo. 
-
+El diseño eléctrico fue complementado mediante diagramas unifilares desarrollados en AutoCAD, considerando la interconexión de los módulos fotovoltaicos, sistema de almacenamiento, inversor, protecciones eléctricas y tablero de distribución.
 
 ⚙️ Características principales
 
-Parámetro	Valor
-Tipo de sistema	Fotovoltaico aislado
-Software	PVsyst V8.0.18
-Potencia FV	1.16 kWp
-Módulos FV	2 × 580 Wp
-Configuración	1 string × 2 módulos en serie
-Inclinación	20°
-Azimut	0°
-Demanda promedio	1.8 kWh/día
-Batería modelada	6.1 kWh
-Tensión de batería	50 V
-Capacidad	134 Ah
-Energía solar disponible	1656.36 kWh/año
-Energía útil solar	654.94 kWh/año
-Energía faltante	6.23 kWh/año
-Energía excedente	961.46 kWh/año
-Fracción solar	99.04 %
-Performance Ratio	33.71 %
-
+- Diseño de sistema fotovoltaico aislado.
+- Simulación energética mediante PVsyst.
+- Configuración de módulos fotovoltaicos y strings.
+- Sistema de almacenamiento mediante baterías.
+- Análisis de demanda y consumo energético.
+- Evaluación de pérdidas del sistema.
+- Análisis de energía generada, utilizada y faltante.
+- Cálculo del Performance Ratio (PR).
+- Diseño de diagramas unifilares en AutoCAD.
+- Integración de protecciones eléctricas DC y AC.
 
 # 📸 Galería
 
@@ -130,8 +120,6 @@ La batería permite almacenar energía generada por el arreglo fotovoltaico y su
 
 🏠 Demanda Energética
 
-El perfil de consumo utilizado en la simulación corresponde a cargas de tipo residencial.
-
 Carga	Potencia	Uso
 Lámparas	25 W	0.5 h/día
 TV / PC / móvil	100 W	0.5 h/día
@@ -190,11 +178,11 @@ Demanda configurada = 1812 Wh/día
                       🏠 CARGAS
 
 
+## 📊 Simulación Energética
 
-📊 Resultados de la Simulación
-
+La simulación fue realizada mediante PVsyst para evaluar el comportamiento energético del sistema durante un periodo anual.
+Se analizaron los principales indicadores de desempeño, incluyendo producción fotovoltaica, energía suministrada a las cargas, pérdidas del sistema, energía faltante, excedentes y Performance Ratio.
 Resultados anuales
-
 Indicador	Resultado
 Energía solar disponible	1656.36 kWh/año
 Energía útil solar	654.94 kWh/año
@@ -363,25 +351,6 @@ El diseño conceptual considera:
 La selección definitiva de protecciones debe realizarse considerando los valores reales de tensión, corriente, conductores y capacidad de interrupción.
 
 
-
-💻 Software Utilizado
-
-PVsyst V8.0.18
-
-Utilizado para:
-
-* Modelado del sistema fotovoltaico.
-* Configuración del arreglo FV.
-* Configuración de baterías.
-* Definición de cargas.
-* Simulación anual.
-* Análisis de pérdidas.
-* Evaluación energética.
-* Análisis de fracción solar.
-* Evaluación del desempeño del sistema.
-
-
-
 📂 Estructura del Repositorio
 
 📁 SISTEMA-FOTOVOLTAICO-AISLADO
@@ -430,65 +399,19 @@ Utilizado para:
 
 ⸻
 
-🧠 Competencias Demostradas
+## 🧰 Software y Herramientas
 
-⚡ Sistemas Energéticos
-
-* Sistemas fotovoltaicos.
-* Energías renovables.
-* Generación eléctrica.
-* Almacenamiento energético.
-* Balance energético.
-* Análisis de pérdidas.
-
-💻 Simulación
-
-* PVsyst.
-* Modelado de sistemas FV.
-* Simulación anual.
-* Interpretación de resultados.
-* Análisis de desempeño.
-
-🔧 Ingeniería
-
-* Dimensionamiento conceptual.
-* Selección de componentes.
-* Protecciones eléctricas.
-* Diagramas unifilares.
-* Análisis técnico.
-* Documentación de proyectos.
+- PVsyst — Diseño y simulación de sistemas fotovoltaicos.
+- AutoCAD — Elaboración de diagramas unifilares y diseño eléctrico.
+- Análisis energético — Evaluación de generación, demanda, pérdidas y almacenamiento.
 
 ⸻
 
-📌 Verificaciones de Ingeniería
+## 🎯 Conclusión
 
-Para una implementación real deberán verificarse:
+Este proyecto permitió integrar el diseño, simulación y análisis energético de un sistema fotovoltaico aislado con almacenamiento, complementándolo con el desarrollo de diagramas eléctricos en AutoCAD.
 
-* Voc de los módulos conectados en serie.
-* Corrección de Voc por temperatura.
-* Isc real de los módulos.
-* Capacidad de conductores.
-* Caída de tensión.
-* Selección de fusibles.
-* Coordinación de protecciones.
-* Selección de SPD.
-* Capacidad de interrupción.
-* Sistema de puesta a tierra.
-* Compatibilidad entre MPPT, batería e inversor.
-* Normativa eléctrica aplicable.
-
-⸻
-
-📚 Documentación del Proyecto
-
-📄 Reporte original PVsyst
-📄 Memoria técnica
-📐 Diagrama unifilar
-📊 Cálculos
-📑 Fichas técnicas
-🖼️ Capturas de simulación
-
-⸻
+El resultado representa una aplicación práctica de herramientas de diseño fotovoltaico, análisis energético y documentación eléctrica utilizadas en proyectos de ingeniería.
 
 👨‍💻 Autor
 
