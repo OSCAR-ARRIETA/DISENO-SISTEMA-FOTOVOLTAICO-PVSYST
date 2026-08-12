@@ -132,52 +132,6 @@ Consumo diario
 Demanda promedio ≈ 1.8 kWh/día
 Demanda configurada = 1812 Wh/día
 
-
-
-🔌 Arquitectura del Sistema
-
-                         ☀️
-                  RADIACIÓN SOLAR
-                         │
-                         ▼
-              ┌────────────────────┐
-              │   ARRAY FV 1.16kWp │
-              │    2 × 580 Wp      │
-              └──────────┬─────────┘
-                         │
-                         ▼
-              ┌────────────────────┐
-              │ PROTECCIONES DC    │
-              └──────────┬─────────┘
-                         │
-                         ▼
-              ┌────────────────────┐
-              │       MPPT         │
-              └──────────┬─────────┘
-                         │
-              ┌──────────┴──────────┐
-              │                     │
-              ▼                     ▼
-       ┌──────────────┐      ┌──────────────┐
-       │    BATERÍA   │      │   INVERSOR   │
-       │    6.1 kWh   │      │              │
-       └──────┬───────┘      └──────┬───────┘
-              │                     │
-              │                     ▼
-              │             ┌──────────────┐
-              │             │ PROTECCIÓN AC│
-              │             └──────┬───────┘
-              │                    │
-              └──────────┬─────────┘
-                         ▼
-                ┌─────────────────┐
-                │   TABLERO AC    │
-                └────────┬────────┘
-                         │
-                         ▼
-                      🏠 CARGAS
-
-
 ## 📊 Simulación Energética
 
 La simulación fue realizada mediante PVsyst para evaluar el comportamiento energético del sistema durante un periodo anual.
@@ -333,8 +287,6 @@ Potencia: 3000 VA
 Potencia continua: 2400 W
 Potencia pico: 5500 W
 
-
-
 🛡️ Protecciones Eléctricas
 
 El diseño conceptual considera:
@@ -349,40 +301,6 @@ El diseño conceptual considera:
 * Tablero de distribución
 
 La selección definitiva de protecciones debe realizarse considerando los valores reales de tensión, corriente, conductores y capacidad de interrupción.
-
-
-📂 Estructura del Repositorio
-
-📁 SISTEMA-FOTOVOLTAICO-AISLADO
-│
-├── 📄 README.md
-│
-├── 📁 01_Diagrama_Unifilar
-│   └── 🖼️ diagrama_unifilar.png
-│
-├── 📁 02_PVsyst
-│   └── 📄 Reporte_PVsyst.pdf
-│
-├── 📁 03_Memoria_Tecnica
-│   └── 📄 Memoria_Tecnica.pdf
-│
-├── 📁 04_Calculos
-│   ├── 📊 calculo_generacion.xlsx
-│   ├── 📊 calculo_consumo.xlsx
-│   └── 📊 calculo_bateria.xlsx
-│
-├── 📁 05_Fichas_Tecnicas
-│   ├── 📄 Modulos_FV.pdf
-│   ├── 📄 Controlador_MPPT.pdf
-│   ├── 📄 Bateria.pdf
-│   └── 📄 Inversor.pdf
-│
-└── 📁 06_Imagenes
-    ├── 🖼️ pvsyst_01.png
-    ├── 🖼️ pvsyst_02.png
-    └── 🖼️ sistema_fotovoltaico.png
-
-⸻
 
 🎯 Objetivos del Proyecto
 
