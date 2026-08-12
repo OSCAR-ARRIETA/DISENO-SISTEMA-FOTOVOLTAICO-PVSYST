@@ -4,7 +4,7 @@
 <div align="center">
 
 
-#☀️ SISTEMA FOTOVOLTAICO AISLADO CON ALMACENAMIENTO
+☀️ SISTEMA FOTOVOLTAICO AISLADO CON ALMACENAMIENTO
 
 ###  Diseño • Simulación • Almacenamiento • Análisis Energético
 
@@ -16,7 +16,7 @@
 
 </div>
 
-⸻
+
 
 📌 Descripción
 
@@ -24,9 +24,8 @@ Proyecto de diseño y simulación de un sistema fotovoltaico aislado con almacen
 
 El proyecto analiza la generación solar, demanda eléctrica, almacenamiento mediante baterías, pérdidas del sistema, energía excedente, energía faltante y desempeño energético.
 
-El sistema fue modelado como una instalación fotovoltaica autónoma con almacenamiento, permitiendo evaluar su comportamiento energético durante un año completo.
+El sistema fue modelado como una instalación fotovoltaica autónoma con almacenamiento, permitiendo evaluar su comportamiento energético durante un año completo. 
 
-⸻
 
 ⚙️ Características principales
 
@@ -49,7 +48,18 @@ Energía excedente	961.46 kWh/año
 Fracción solar	99.04 %
 Performance Ratio	33.71 %
 
-⸻
+
+# 📸 Galería
+
+### Tablero control con PLC y HMI instalados.
+Tablero principal de control de procesos para una planta de tratamiento de aguas residuales que controla bombas y medidores de flujo, con PLC DELTA instalado automatizando todo el proceso.
+
+<p align="center">
+<img src="queretaro/tablero-control.jpeg" width="30%">
+
+<img src="queretaro/interior-tablero.jpeg" width="30%">
+
+</p>
 
 ☀️ Arreglo Fotovoltaico
 
@@ -100,7 +110,7 @@ Potencia instalada
 580 Wp × 2 módulos = 1160 Wp
 Potencia FV = 1.16 kWp
 
-⸻
+
 
 🔋 Sistema de Almacenamiento
 
@@ -115,7 +125,7 @@ SOC mínimo:           10 %
 
 La batería permite almacenar energía generada por el arreglo fotovoltaico y suministrarla posteriormente a las cargas.
 
-⸻
+
 
 🏠 Demanda Energética
 
@@ -133,7 +143,7 @@ Consumo diario
 Demanda promedio ≈ 1.8 kWh/día
 Demanda configurada = 1812 Wh/día
 
-⸻
+
 
 🔌 Arquitectura del Sistema
 
@@ -178,7 +188,7 @@ Demanda configurada = 1812 Wh/día
                          ▼
                       🏠 CARGAS
 
-⸻
+
 
 📊 Resultados de la Simulación
 
@@ -192,7 +202,7 @@ Energía excedente	961.46 kWh/año
 Fracción solar	99.04 %
 Performance Ratio	33.71 %
 
-⸻
+
 
 📈 Balance Energético
 
@@ -214,7 +224,7 @@ El sistema presenta una fracción solar de 99.04 %, mientras que se registra una
 
 Una cantidad significativa de la energía disponible permanece sin utilizar debido principalmente a periodos en los que la batería alcanza su capacidad de almacenamiento.
 
-⸻
+
 
 📅 Comportamiento Mensual
 
@@ -233,7 +243,7 @@ Noviembre	0 kWh
 Diciembre	3.63 kWh
 TOTAL	6.23 kWh
 
-⸻
+
 
 📉 Análisis de Pérdidas
 
@@ -295,7 +305,7 @@ Principales pérdidas identificadas
 * Pérdidas asociadas al almacenamiento.
 * Energía no utilizada por batería completamente cargada.
 
-⸻
+
 
 🧰 Componentes
 
@@ -336,7 +346,7 @@ Potencia: 3000 VA
 Potencia continua: 2400 W
 Potencia pico: 5500 W
 
-⸻
+
 
 🛡️ Protecciones Eléctricas
 
@@ -353,7 +363,7 @@ El diseño conceptual considera:
 
 La selección definitiva de protecciones debe realizarse considerando los valores reales de tensión, corriente, conductores y capacidad de interrupción.
 
-⸻
+
 
 💻 Software Utilizado
 
@@ -371,7 +381,7 @@ Utilizado para:
 * Análisis de fracción solar.
 * Evaluación del desempeño del sistema.
 
-⸻
+
 
 📂 Estructura del Repositorio
 
