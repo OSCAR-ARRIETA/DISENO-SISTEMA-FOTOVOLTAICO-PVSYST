@@ -481,16 +481,6 @@ Para una implementación real deberán verificarse:
 
 ⸻
 
-⚠️ Consideraciones Técnicas
-
-El modelo original de PVsyst utiliza una batería de 6.1 kWh, mientras que la propuesta comercial considera una batería de 5.12 kWh. Por lo tanto, ambos sistemas no son exactamente equivalentes.
-
-El modelo original también utiliza una salida de 230 V / 50 Hz, coherente con la ubicación utilizada en la simulación. Para una implementación en México sería necesario rediseñar y verificar la salida eléctrica conforme a las condiciones y normativa aplicables.
-
-Este repositorio corresponde a un proyecto académico y de portafolio profesional. No sustituye un proyecto ejecutivo, memoria de cálculo certificada ni diseño eléctrico para una instalación real.
-
-⸻
-
 📚 Documentación del Proyecto
 
 📄 Reporte original PVsyst
