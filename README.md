@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="06_Imagenes/sistema_fotovoltaico.png" width="70%">
+  <img src="banner.jpeg" width="50%">
 </p>
 <div align="center">
 
