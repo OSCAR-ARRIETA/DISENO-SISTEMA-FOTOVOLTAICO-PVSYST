@@ -55,11 +55,11 @@ Performance Ratio	33.71 %
 Representación eléctrica de la conexión entre módulos FV, inversor, protecciones y tablero de distribución.
 
 <p align="center">
-<img src="panel/diagrama.png" width="30%">
+<img src="panel/Diagrama.png" width="30%">
 </p>
 
 <p align="center">
-<img src="panel/diagrama unifilar.png" width="30%">
+<img src="panel/Diagrama unifilar.png" width="30%">
 </p>
 
 ☀️ Arreglo Fotovoltaico
