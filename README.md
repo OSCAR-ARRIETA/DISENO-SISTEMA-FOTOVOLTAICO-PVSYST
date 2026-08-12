@@ -310,8 +310,6 @@ Principales pérdidas identificadas
 
 🧰 Componentes
 
-Nota: Los componentes siguientes corresponden a una propuesta comercial actual y no necesariamente a los equipos utilizados originalmente en la simulación.
-
 ☀️ Módulos Fotovoltaicos
 
 JA Solar JAM72S30-580/LR
